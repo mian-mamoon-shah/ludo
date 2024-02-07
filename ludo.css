@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(22, 22, 22);
+}
+
+
+
+
+.game{
+  
+ 
+    text-align: center;
+    border: 20px;
+    border-color: aquamarine;
+}
+.num{
+    text-align: center;
+
+}
+.btn{
+    border: solid green 2px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}

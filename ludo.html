@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ludo.css">
+</head>
+<body>
+    <div class="game">
+
+    
+    
+       <div class="img"> <img src="./dice-1.png" alt=""></div>
+ 
+    
+    <div class="num">
+       <h2>5</h2>
+    </div>
+    <div class="btn"><button class="btn" onclick="roll ()">PLAY</button></div>
+</div>
+<script>
+    function roll(){
+        document.querySelector(".img");
+        let rnd = Math.random() * 6 + 1;
+        let nodec = Math.trunc(rnd);
+    
+    document.querySelector(".num").textContent = nodec; }
+    img.src =  `dice-${nodec}.png`;
+    
+
+</script>
+
+</body>
+</html>
